@@ -90,7 +90,7 @@ const Teenagers = () => {
             </ContentCard>
 
             <ContentCard icon={DollarSign} title="Severe Financial Impact">
-              <p>The financial impact can also be severe.</p>
+              <p>The financial impact can also be severe. Over time, repeated losses can drain savings and lead teens into debt they are not prepared to manage. This financial strain can affect college plans and future independence.</p>
             </ContentCard>
 
             <ContentCard icon={AlertTriangle} title="Emotional Consequences">
