@@ -11,12 +11,12 @@ const Teenagers = () => {
         subtitle="Online sports betting is becoming more and more popular in recent years, but for many teenagers it is starting to become a very serious problem."
         accent="Youth Impact"
       />
-      {/* Summary Link */}
+{/* Summary Link */}
 <section className="py-6 bg-background">
   <div className="container mx-auto px-4">
     <div className="max-w-3xl mx-auto">
       <a
-        href="https://drive.google.com/file/d/1UoQxwyUxgarukTOT0mWTktGFCJUCrzMa/view"
+        href="https://drive.google.com/file/d/1UoQxwyUxgarukTOT0mWTktGFCJUCrzMa/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
@@ -27,6 +27,7 @@ const Teenagers = () => {
     </div>
   </div>
 </section>
+
       {/* Introduction */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
