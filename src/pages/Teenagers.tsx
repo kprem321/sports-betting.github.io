@@ -16,7 +16,7 @@ const Teenagers = () => {
   <div className="container mx-auto px-4">
     <div className="max-w-3xl mx-auto">
       <a
-        href="https://drive.google.com/file/d/1UoQxwyUxgarukTOT0mWTktGFCJUCrzMa/view?usp=sharing"
+        href="https://drive.google.com/file/d/1pOdW9vySJx5IKlX-McJ6eTphxKsbjBOn/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:underline"
