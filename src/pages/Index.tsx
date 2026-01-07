@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { TrendingUp, Users, Shield, Tv, ArrowRight, AlertTriangle } from "lucide-react";
+import { Users, Shield, Tv, ArrowRight, AlertTriangle } from "lucide-react";
 import Layout from "@/components/Layout";
 import HeroSection from "@/components/HeroSection";
 import ContentCard from "@/components/ContentCard";
@@ -34,26 +34,21 @@ const Index = () => {
               What is Sports Betting?
             </h2>
             <p className="text-lg text-muted-foreground">
-              Sports betting is the activity of predicting sports results and placing a wager on the outcome. 
-              While it may seem harmless, it has become a growing concern, especially among young people.
+              Sports betting is the activity of wagering money on predicted sports outcomes — gambling encompasses a broader range.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="space-y-4">
-              <h3 className="font-serif text-xl font-bold text-foreground">How It Works</h3>
+              <h3 className="font-serif text-xl font-bold text-foreground">How Does Sports Betting Work?</h3>
               <p className="text-muted-foreground">
-                Bettors place money on predictions about sporting events—from who wins a game to specific 
-                statistics like points scored. With the rise of mobile apps and online platforms, betting 
-                has never been more accessible.
+                Many people bet through sportsbooks or apps by depositing money and then choosing different wager types. There are many live and same game bets. These bets are updated constantly as well as with other promotions and advertising to attract users.
               </p>
             </div>
             <div className="space-y-4">
               <h3 className="font-serif text-xl font-bold text-foreground">The Growing Industry</h3>
               <p className="text-muted-foreground">
-                Since 2018, when the U.S. Supreme Court allowed states to legalize sports betting, 
-                the industry has exploded. Billions of dollars are wagered annually, and aggressive 
-                marketing targets younger demographics.
+                Sports betting has largely expanded in the U.S. It has grown into a multibillion dollar industry in which betting apps have combined with many news, social media, and sports broadcasts.
               </p>
             </div>
           </div>
@@ -63,42 +58,36 @@ const Index = () => {
       {/* Statistics Section */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
-          <h2 className="font-serif text-3xl font-bold text-foreground text-center mb-12">
-            The Numbers Tell a Story
+          <h2 className="font-serif text-3xl font-bold text-foreground text-center mb-4">
+            Statistics (18-22 Years Old)
           </h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <p className="text-muted-foreground text-center mb-12">The numbers reveal concerning trends among young adults</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <StatCard
-              value="67%"
-              label="Youth Exposure"
-              description="Young people who have seen gambling ads"
+              value="58%"
+              label="Engaged in Betting"
+              description="Have engaged in at least one sports betting activity"
             />
             <StatCard
-              value="2-4x"
-              label="Higher Risk"
-              description="Teens are more likely to develop gambling problems"
+              value="63%"
+              label="Ad Exposure"
+              description="Have recalled seeing betting advertisements"
             />
             <StatCard
-              value="$7B+"
-              label="Annual Ads"
-              description="Spent on gambling advertising yearly"
-            />
-            <StatCard
-              value="18-24"
-              label="Age Group"
-              description="Fastest growing demographic for betting apps"
+              value="16%"
+              label="Risky Behavior"
+              description="Have reported at least one risky behavior (6% lost over $500 in a day)"
             />
           </div>
         </div>
       </section>
 
-      {/* Warning Section */}
+      {/* Why This Matters Section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <ContentCard icon={AlertTriangle} title="Why This Matters" variant="warning">
+          <ContentCard icon={AlertTriangle} title="Why Does Sports Betting Matter?" variant="warning">
             <p className="text-foreground">
-              Gambling addiction can develop quickly in young people. The teenage brain is still developing, 
-              making youth more susceptible to addiction and impulsive decision-making. What starts as "just for fun" 
-              can quickly spiral into financial troubles, mental health issues, and strained relationships.
+              There is large rapid growth with sports betting, causing concern with integrity. High amounts of sports betting is shown in the media which directly impacts teens, causing high risk and negative behavior.
             </p>
           </ContentCard>
         </div>
