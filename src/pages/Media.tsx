@@ -1,7 +1,8 @@
-import { Tv, Smartphone, Handshake, Megaphone, BookOpen } from "lucide-react";
+import { Tv, Smartphone, Handshake, Megaphone, BookOpen, ExternalLink } from "lucide-react";
 import Layout from "@/components/Layout";
 import HeroSection from "@/components/HeroSection";
 import ContentCard from "@/components/ContentCard";
+import { Button } from "@/components/ui/button";
 
 const Media = () => {
   return (
@@ -130,10 +131,20 @@ const Media = () => {
               audiences are led to believe that sports betting is a safe, entertaining, 
               and financially strategic activity rather than a potentially addictive behavior.
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground mb-8">
               This constant exposure reshapes how an entire generation views gambling—transforming 
               it from a recognized risk into an expected part of the sports fan experience.
             </p>
+            <Button asChild className="gap-2">
+              <a 
+                href="https://drive.google.com/file/d/1UoQxwyUxgarukTOT0mWTktGFCJUCrzMa/view" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <ExternalLink size={16} />
+                Summary of the Article
+              </a>
+            </Button>
           </div>
         </div>
       </section>
@@ -142,3 +153,4 @@ const Media = () => {
 };
 
 export default Media;
+
